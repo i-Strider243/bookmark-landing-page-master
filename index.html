@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Frontend Mentor | Bookmark landing page</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(60, 100%, 50%);}
+  </style>
+</head>
+<body>
+  <header class="row" id="header">
+    <nav class="row">
+      <div class="logo">
+        <img src="./images/logo-bookmark.svg" alt="Logo">
+      </div>
+      <button class="mobile-nav-toggle" aria-controls="primary-nav" aria-expanded="false">
+        <img src="./images/icon-hamburger.svg" alt="menu">
+        <span class="sr-only">Menu</span>
+      </button>
+      <div id="primary-nav" data-visible="false" class="primary-nav flex">
+        <ul>
+          <hr><li>Features</li>
+          <hr><li>Pricing</li>
+          <hr><li>Contact</li>
+          <hr><li>Login</li>
+        </ul>
+        <div class="nav-share-icons flex">
+          <div class="nav-share-icon"><img src="./images/icon-facebook.svg" alt="icon-facebook"></div>
+          <div class="nav-share-icon"><img src="./images/icon-twitter.svg" alt="icon-twitter"></div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="flex row">
+    <section class="hero row">
+      <div class="hero-img col">
+        <img src="./images/illustration-hero.svg" alt="Image of a Tablet" srcset="">
+        <div class="bg-img"></div>
+      </div>
+      <div class="hero-text col">
+        <h1>A Simple Bookmark Manager</h1>
+        <p class="container">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+        <div class="hero-btns flex">
+          <button class="primary-btn">Get it on Chrome</button>
+          <button class="secondary-btn">Get it on Firefox</button>
+        </div>
+      </div>
+    </section>
+    <section class="features row flex">
+      <div class="features-header">
+        <h2>Features</h2>
+        <p class="container">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+      </div>
+      <div class="features-content flex">
+        <div class="features-btns flex container">
+          <button class="feature-btn active">Simple Bookmarking</button>
+          <button class="feature-btn">Speedy Searching</button>
+          <button class="feature-btn">Easy Sharing</button>
+        </div>
+        <article>
+          <div id="simple bookmarking" class="features-list-item active row">
+            <div class="features-img col">
+              <img src="./images/illustration-features-tab-1.svg" alt="Bookmark Image">
+              <div class="bg-img"></div>
+            </div>
+            <div class="features-tab col flex">
+              <h2>Bookmark in one click</h2>
+              <p class="container">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+              <div class="features-tab-btn">
+                <button class="primary-btn">More Info</button>
+              </div>    
+            </div>
+          </div>
+          <div id="speedy searching" class="features-list-item row">
+            <div class="features-img col">
+              <img src="./images/illustration-features-tab-2.svg" alt="Bookmark Image">
+              <div class="bg-img"></div>
+            </div>
+            <div class="features-tab col flex">
+              <h2>'Intelligent search'</h2>
+              <p class="container">'Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.'</p>
+              <div class="features-tab-btn">
+                <button class="primary-btn">More Info</button>
+              </div>    
+            </div>
+          </div>
+          <div id="easy sharing" class="features-list-item row">
+            <div class="features-img col">
+              <img src="./images/illustration-features-tab-3.svg" alt="Bookmark Image">
+              <div class="bg-img"></div>
+            </div>
+            <div class="features-tab col flex">
+              <h2>Share your bookmarks</h2>
+              <p class="container">Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.</p>
+              <div class="features-tab-btn">
+                <button class="primary-btn">More Info</button>
+              </div>    
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="downloads flex row">
+      <div>
+        <h2>Download the extension</h2>
+        <p class="container">We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.</p>
+      </div>
+      <div class="cards flex row">
+        <!-- Cards loaded with Javascript -->
+      </div>
+    </section>
+    <section class="FAQs row flex">
+      <div class="FAQ-title">
+        <h2>Frequently Asked Questions</h2>
+        <p class="container">Here are some of our FAQs. If you have any other questions you’d like answered please feel free to email us.</p>
+      </div>
+      <div class="FAQ wrapper">
+      <!-- Content loaded with JS -->
+      </div>
+      <div class="FAQ-btn">
+        <button class="primary-btn">More Info</button>
+      </div>
+    </section>
+    <section class="enroll row">
+      <form class="form flex">
+        <span>35,000+ already joined</span>
+        <h3>Stay up-to-date with what we’re doing</h3>
+        <div class="flex">
+          <label for="email">
+            <input type="email" name="email" id="email" autocomplete="email" placeholder="Enter your email adress">
+          </label>
+          <button type="submit" class="tetiary-btn" id="submit-btn">Contact Us</button>
+        </div>
+      </form>
+    </section>
+  </main>
+  <footer class="flex row">
+    <div class="footer-items flex">
+      <div class="footer-img"><img src="./images/logo-bookmark-white.svg" alt="logo"></div>
+      <ul>
+        <li>Features</li>
+        <li>Pricing</li>
+        <li>Contact</li>
+      </ul>
+      <div class="footer-icons flex">
+        <div><img src="./images/icon-facebook.svg" class="icon-facebook icon" alt="facebook icon"></div>
+        <div><img src="./images/icon-twitter.svg" class="icon-twitter icon" alt="twitter icon"></div>
+      </div>
+    </div>
+    <button id="back-to-top-btn"><img src="./images/icon-arrow.svg" alt="Back to top button"></button>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Simon Gabriel</a>.
+    </p>
+  </footer>
+<script src="./js/index.js"></script>
+</body>
+</html>
