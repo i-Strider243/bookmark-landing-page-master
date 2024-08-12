@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![bookmark-landing-page-master](screenshots/Desktop-view_10-8-2024.jpeg)
 
 ### Links
 
