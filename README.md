@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/bookmark-landing-page-with-custom-scroll-bar-and-back-to-top-button-fy31_Y2NKZ)
+- [Live site URL](https://i-strider243.github.io/bookmark-landing-page-master/)
 
 ## My process
 
@@ -54,7 +54,7 @@ Users should be able to:
 This project stretched my knowledge of Vanilla Javascript, I used arrays to render items to the page, I also replaced elements on the page with javascript, for example changing an image using the "src" attribute. I learn't how to add a back-to-top button which I can modify to move to any section of the page. I also learn't how to customize a scroll bar.
 
 ```html
-  <button id="back-to-top-btn"><img src="./images/icon-arrow.svg" alt="Back to top button"></button>
+<button id="back-to-top-btn"><img src="./images/icon-arrow.svg" alt="Back to top button"></button>
 ```
 ```css
 #back-to-top-btn img {
@@ -73,13 +73,14 @@ I want to learn more on how to make scroll behaviour of elements and gain more k
 
 ### Useful resources
 
-- [Build 15 JavaScript Projects - Vanilla JavaScript Course](https://www.youtube.com/watch?v=3PHXvlpOkf4) - This was the backbone of my entire project, John is a great teacher, he really helped learn how to render items in an array. I really liked this pattern and will use it going forward.
-- [Window sizes and scrolling](https://javascript.info/size-and-scroll-window) - This helped me know the various scroll opions available. I'd recommend it to anyone still learning this concept.
+- [Build 15 JavaScript Projects - Vanilla JavaScript Course](https://www.youtube.com/watch?v=3PHXvlpOkf4) - This was the backbone of my entire project, John is a great teacher, he really helped me learn how to render items in an array. I really liked this pattern and will use it going forward.
+- [Window sizes and scrolling](https://javascript.info/size-and-scroll-window) - This helped me know the various scroll options available and how to scroll to specific places on a page. I'd recommend it to anyone still learning this concept.
 
 
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
+- Github - [i-Strider243](https://github.com/i-Strider243)
 - Frontend Mentor - [@i-Strider243](https://www.frontendmentor.io/profile/i-Strider243)
 - X - [@Strider18](https://x.com/Strider18)
 - LinkedIn - [@SimonGabriel](www.linkedin.com/in/simon-gabriel-b71216227)
